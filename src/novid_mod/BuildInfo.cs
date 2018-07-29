@@ -6,7 +6,7 @@ using UnityEngine;
 public class BuildInfo: ScriptableObject {
 	public string VersionNumber {
 		get {
-			return this.versionNumber + " - novid_mod - Artur Barichello";
+			return this.versionNumber + " - novid_mod - Barichello";
 		}
 	}
 
