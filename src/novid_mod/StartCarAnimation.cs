@@ -32,6 +32,7 @@ public class StartCarAnimation: MonoBehaviour {
 		this.Subtitle.Hide(null);
 	}
 
+	// Stop and DoCallback on Update
 	private void Update() {
 		this.Stop();
 		this.DoCallback();

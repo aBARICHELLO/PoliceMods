@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 public class BuildInfo: ScriptableObject {
+	// Returning installed mod after version number
 	public string VersionNumber {
 		get {
 			return this.versionNumber + " - novid_mod - Barichello";
@@ -58,6 +59,7 @@ public class BuildInfo: ScriptableObject {
 		}
 	}
 
+	// Return false for ShowIntro
 	public bool ShowIntro {
 		get {
 			return false;
