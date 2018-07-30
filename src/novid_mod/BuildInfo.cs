@@ -60,7 +60,7 @@ public class BuildInfo: ScriptableObject {
 
 	public bool ShowIntro {
 		get {
-			return this.showIntro;
+			return false;
 		}
 	}
 
